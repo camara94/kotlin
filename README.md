@@ -38,3 +38,17 @@ Une fonction se déclare grâce au mot-clé  fun  en Kotlin.
 * **Une expression** est une partie de votre code qui peut retourner une valeur. **Une instruction** est un bloc de code qui ne retourne aucune valeur.
 * En Kotlin, toutes les fonctions retournent une valeur, même si aucun type de retour n’est mentionné (le type retourné par défaut sera alors **Unit**).
 * Une fonction n’est pas obligée de posséder un corps et peut contenir uniquement une expression.
+
+## Class en Kotlin
+* Une classe se déclare grâce au mot-clé  **class**  .
+* Par défaut, la visibilité d’une classe est  **public**  en Kotlin.
+* Les propriétés d’une classe peuvent se déclarer directement dans son constructeur primaire.
+* Le mot-clé  val  placé devant le nom d’une propriété dans le constructeur d’une classe permet d’indiquer à Kotlin de générer automatiquement un assesseur.
+*Le mot-clé  var  placé devant le nom d’une propriété dans le constructeur d’une classe permet d’indiquer à Kotlin de générer automatiquement un assesseur ET un mutateur.
+
+
+## Les Conditions et les énumeration en Kotlin
+* En Kotlin, toutes les structures de contrôles (sauf les boucles) sont des expressions et peuvent retourner des valeurs.
+*L’opérateur ternaire n’existe plus en Kotlin, mais peut être facilement remplacé par une condition  if  .
+* L’instruction  switch  n’existe plus en Kotlin. Celle-ci est remplacée par l'expression  when  beaucoup plus concise.
+* Pour créer une énumération en Kotlin, vous devrez utiliser les mots-clés  enum class  suivis du nom de l’énumération.
