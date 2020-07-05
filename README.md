@@ -59,3 +59,9 @@ En Kotlin, la syntaxe pour écrire une itération  while  ne diffère pas de son
 (1..10  signifie une plage de 1 à 10 inclus).
 * Le mot-clé  step  dans une boucle  for  permet de **sauter** des itérations.
 * Vous pouvez créer facilement des collections de données immuables grâce aux méthodes  **listOf**  et  **setOf**
+
+## Cast en Kotlin
+* En Kotlin, le mot-clé  instanceof  n’existe plus et est remplacé par  **is**  .
+* Le Smart Cast (ou **conversion intelligente**) est la déduction automatique du type par le compilateur de Kotlin après une vérification avec  **is**  .
+* Le **Unsafe Cast** (ou **conversion non sécurisée**) est la tentative de conversion du type d’une variable en un autre grâce au mot-clé  **as** . Si la tentative échoue, une erreur de type  ClassCastException  sera déclenchée.
+* Le **Safe Cast** (ou **conversion sécurisée**) est la tentative de conversion du type d’une variable en un autre grâce au mot-clé  **as**  suivi du point d’interrogation  **?** . Si la tentative échoue, l'expression sera  null.
