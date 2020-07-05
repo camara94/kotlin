@@ -15,3 +15,19 @@ Kotlin est un langage de programmation qui se veut **concis**, **sûr**, **pragm
 * Kotlin est un langage de programmation **statiquement typé** supportant néanmoins **l’inférence de type** grâce à son compilateur.
 * Kotlin supporte la **programmation orientée objet** et la **programmation fonctionnelle**.
 * Kotlin est open source, supporte la plupart des IDEs et fonctionne sur la majorité des plateformes Java actuelles (où le bytecode JVM est accepté).
+
+## Variable
+En kotlin, il ya trois façons de declarer une variable
+* <code>val question = "Bonjour Camara"</code> c'est l'équivalent d'une finale en java;
+* <code>val question = "Bonjour tout le monde !"</code> 
+* <code>var question?: string = "je peux contenir null"</code>;là on peut changer le contenu quand on veut;
+* <code>val message: String? = "Bienvenue sur notre beau site"</code> le point d'interogation permet d'indiquer que la variable peut contenir null.
+
+## Déclarez et initialisez des variables
+* Le mot-clé  **val**  permet de créer une variable dont la référence sera immuable (qui ne peut pas être modifiée après son initialisation).
+* Le mot-clé  **var**  permet de créer une variable dont la référence sera muable (qui peut être modifiée après son initialisation).
+* **Kotlin** ne vous oblige pas à mentionner obligatoirement le type d’une variable lors de sa déclaration (grâce à l’inférence de type).
+* Une **variable  val**  doit être initialisée dans le même bloc de code que celui où elle a été déclarée.
+* Vous pouvez définir une variable comme pouvant contenir une valeur nulle grâce au point d’interrogation  **?** .
+* Une constante se définit grâce au mot-clé  **const**  suivi du mot-clé **val**  .
+* Vous pouvez définir une variable comme étant **initialisable plus tard** dans votre code grâce au mot-clé  **lateinit**  .
