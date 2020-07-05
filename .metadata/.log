@@ -97,3 +97,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-05 18:32:15.087
 !MESSAGE executing callback sts4.classpath.WikmfsrW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-05 19:07:27.039
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WikmfsrW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-05 19:07:27.073
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WikmfsrW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-05 19:07:27.116
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-05 19:07:27.161
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WikmfsrW => OK

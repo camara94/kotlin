@@ -31,3 +31,10 @@ En kotlin, il ya trois façons de declarer une variable
 * Vous pouvez définir une variable comme pouvant contenir une valeur nulle grâce au point d’interrogation  **?** .
 * Une constante se définit grâce au mot-clé  **const**  suivi du mot-clé **val**  .
 * Vous pouvez définir une variable comme étant **initialisable plus tard** dans votre code grâce au mot-clé  **lateinit**  .
+
+## Fonction en Kotlin
+Une fonction se déclare grâce au mot-clé  fun  en Kotlin.
+* Le type d’un paramètre de fonction est indiqué après son nom. Les deux points  :  indiquent toujours la déclaration d’un type en Kotlin.
+* **Une expression** est une partie de votre code qui peut retourner une valeur. **Une instruction** est un bloc de code qui ne retourne aucune valeur.
+* En Kotlin, toutes les fonctions retournent une valeur, même si aucun type de retour n’est mentionné (le type retourné par défaut sera alors **Unit**).
+* Une fonction n’est pas obligée de posséder un corps et peut contenir uniquement une expression.
