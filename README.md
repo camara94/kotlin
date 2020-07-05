@@ -44,11 +44,18 @@ Une fonction se déclare grâce au mot-clé  fun  en Kotlin.
 * Par défaut, la visibilité d’une classe est  **public**  en Kotlin.
 * Les propriétés d’une classe peuvent se déclarer directement dans son constructeur primaire.
 * Le mot-clé  val  placé devant le nom d’une propriété dans le constructeur d’une classe permet d’indiquer à Kotlin de générer automatiquement un assesseur.
-*Le mot-clé  var  placé devant le nom d’une propriété dans le constructeur d’une classe permet d’indiquer à Kotlin de générer automatiquement un assesseur ET un mutateur.
-
+* Le mot-clé  var  placé devant le nom d’une propriété dans le constructeur d’une classe permet d’indiquer à Kotlin de générer automatiquement un assesseur ET un mutateur.
 
 ## Les Conditions et les énumeration en Kotlin
 * En Kotlin, toutes les structures de contrôles (sauf les boucles) sont des expressions et peuvent retourner des valeurs.
-*L’opérateur ternaire n’existe plus en Kotlin, mais peut être facilement remplacé par une condition  if  .
+* L’opérateur ternaire n’existe plus en Kotlin, mais peut être facilement remplacé par une condition  if  .
 * L’instruction  switch  n’existe plus en Kotlin. Celle-ci est remplacée par l'expression  when  beaucoup plus concise.
 * Pour créer une énumération en Kotlin, vous devrez utiliser les mots-clés  enum class  suivis du nom de l’énumération.
+
+## Les Boucles en Kotlin
+En Kotlin, la syntaxe pour écrire une itération  while  ne diffère pas de son homologue Java.
+* La boucle  for  s’utilise désormais sous la forme  **item** in **elements**  .
+* Vous pouvez utiliser des intervalles en Kotlin afin de créer une plage de données à parcourir 
+(1..10  signifie une plage de 1 à 10 inclus).
+* Le mot-clé  step  dans une boucle  for  permet de **sauter** des itérations.
+* Vous pouvez créer facilement des collections de données immuables grâce aux méthodes  **listOf**  et  **setOf**
