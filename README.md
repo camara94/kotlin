@@ -65,3 +65,10 @@ En Kotlin, la syntaxe pour écrire une itération  while  ne diffère pas de son
 * Le Smart Cast (ou **conversion intelligente**) est la déduction automatique du type par le compilateur de Kotlin après une vérification avec  **is**  .
 * Le **Unsafe Cast** (ou **conversion non sécurisée**) est la tentative de conversion du type d’une variable en un autre grâce au mot-clé  **as** . Si la tentative échoue, une erreur de type  ClassCastException  sera déclenchée.
 * Le **Safe Cast** (ou **conversion sécurisée**) est la tentative de conversion du type d’une variable en un autre grâce au mot-clé  **as**  suivi du point d’interrogation  **?** . Si la tentative échoue, l'expression sera  null.
+
+## Les Exceptions en Kotlin
+* En Kotlin, une exception se gère comme en Java, grâce aux mots-clés  **try**  et  **catch**  .
+* Contrairement à Java, en Kotlin, une fonction pouvant renvoyer une exception n’a pas besoin du mot-clé  **throws**  dans sa signature.
+* **try**  ,  **catch**  et  throw  sont des expressions en Kotlin et pourront donc renvoyer une valeur. 
+* La classe  Nothing  représente une **valeur inexistante**, utilisée notamment par une fonction ne renvoyant qu’une exception (et jamais de valeur).
+* L’opérateur Elvis  ?:  permet de définir une action alternative si l'expression le précédant est égale à nulle.
